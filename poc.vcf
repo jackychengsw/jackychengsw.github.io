@@ -6,6 +6,6 @@ REV;VALUE=DATE-AND-OR-TIME:20200603T133120Z
 FN:ProtonMail automatic URL Loading PoC
 ADR;TYPE=HOME:;;;;;;
 EMAIL;TYPE=HOME:
-TEST.logo:http:/{YOUR_SERVER}/poc.svg
+TEST.logo:http:/jackychengsw.github.io/poc.svg
 ORG:reversemode
 END:VCARD
